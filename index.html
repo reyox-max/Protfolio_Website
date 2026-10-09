@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Roshan Giri is an aerospace engineering student, designer, and creative developer based in Nepal."
+    />
+    <meta name="theme-color" content="#0a1024" />
+    <title>Roshan Giri | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="main-nav__link is-active" href="#home">Home</a>
+        <a class="main-nav__link" href="#about">About</a>
+        <a class="main-nav__link" href="#projects">Works</a>
+      </nav>
+      <a class="navigate-link" href="#contact">
+        Navigate <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main>
+      <div class="hero-stage" id="home">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero__scene" aria-hidden="true">
+            <img class="hero__sky" src="assets/background.png" alt="" />
+            <div class="hero__aircraft-wrap">
+              <img class="hero__aircraft" src="assets/hero-aircraft.png" alt="" />
+            </div>
+          </div>
+          <img
+            class="hero__landscape"
+            src="assets/ForeGround.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="hero__shade" aria-hidden="true"></div>
+          <div class="hero__stars" aria-hidden="true">
+            <i></i><i></i><i></i><i></i>
+          </div>
+          <div class="hero__copy">
+            <p class="hero__hello">Hello, I&apos;m</p>
+            <h1 id="hero-title">Roshan Giri</h1>
+            <p class="hero__role">Aerospace Engineering Student</p>
+          </div>
+          <div class="hero__cards">
+            <article class="hero__about-card">
+              <p>
+                ...an Aerospace Engineering student who moonlights in design,
+                interest in everything at once, might just be allergic to free
+                time, although always on internet....
+              </p>
+            </article>
+            <article class="hero__stat-stack">
+              <div class="hero__stat-card">
+                <strong>00+</strong>
+                <span>Aerospace Projects</span>
+              </div>
+            </article>
+            <article class="hero__stat-stack">
+              <div class="hero__stat-card">
+                <strong>00+</strong>
+                <span>Design Projects</span>
+              </div>
+            </article>
+          </div>
+          <div class="hero__fireflies" aria-hidden="true"></div>
+          <a
+            class="hero__scroll-cue"
+            href="#about"
+            aria-label="Scroll to introduction"
+          >
+            <img src="assets/scroll-icon.svg" alt="" />
+          </a>
+        </section>
+        <div class="hero-stage__spacer" aria-hidden="true"></div>
+      </div>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="about-section__content">
+          <header class="section-heading">
+            <h2 id="about-title">Introduction</h2>
+            <div class="section-heading__subline">
+              <h3>About Me</h3>
+              <span aria-hidden="true"></span>
+            </div>
+          </header>
+          <div class="about-section__body">
+            <div class="about-section__portrait">
+              <img src="assets/portrait.png" alt="Roshan Giri" />
+            </div>
+            <div class="about-section__details">
+              <p>
+                Hi there! I&apos;m <strong>Roshan Giri</strong>, a passionate
+                creative developer and designer based in Nepal. I craft
+                engaging digital experiences that blend clean code with
+                thoughtful design.
+              </p>
+              <p class="about-section__description">
+                With a keen eye for aesthetics and a love for problem-solving,
+                I specialize in building modern websites and interactive
+                interfaces. My workflow bridges the gap between design and
+                development — turning wireframes into pixel-perfect,
+                responsive realities.
+              </p>
+              <dl class="about-section__stats">
+                <div>
+                  <dt>Projects</dt>
+                  <dd>20+</dd>
+                </div>
+                <div>
+                  <dt>Experience</dt>
+                  <dd>3 Yrs</dd>
+                </div>
+                <div>
+                  <dt>Clients</dt>
+                  <dd>15+</dd>
+                </div>
+                <div>
+                  <dt>Awards</dt>
+                  <dd>5</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="projects-section"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="projects-section__content">
+          <header class="section-heading">
+            <h2 id="projects-title">Project &amp; Works</h2>
+            <div class="projects-section__subline">
+              <h3>Selected explorations</h3>
+              <div class="project-progress" aria-label="Choose a project">
+                <button
+                  class="is-active"
+                  type="button"
+                  aria-label="Show project 1"
+                  aria-current="true"
+                ></button>
+                <button type="button" aria-label="Show project 2"></button>
+                <button type="button" aria-label="Show project 3"></button>
+              </div>
+            </div>
+            <p class="projects-section__intro">
+              Aerospace thinking, digital craft, and the ideas in between.
+            </p>
+          </header>
+          <div class="project-carousel" aria-label="Portfolio projects">
+            <article class="project-card project-card--flight" id="project-1">
+              <div
+                class="project-card__art project-card__art--flight"
+                aria-hidden="true"
+              >
+                <span class="project-card__index">01 / AEROSPACE</span>
+                <div class="flight-art__orbit">
+                  <span>FLIGHT / FORM</span>
+                  <img src="assets/hero-aircraft.png" alt="" />
+                  <i></i>
+                </div>
+                <span class="project-card__art-note">DESIGNING FOR THE SKY</span>
+              </div>
+              <div class="project-card__details">
+                <div>
+                  <h3>Flight in Form</h3>
+                  <p>Aerospace concepts &amp; exploration</p>
+                </div>
+                <a href="#project-1" aria-label="Explore Flight in Form">
+                  <img src="assets/project-arrow.svg" alt="" />
+                </a>
+              </div>
+            </article>
+            <article class="project-card project-card--interface" id="project-2">
+              <div
+                class="project-card__art project-card__art--interface"
+                aria-hidden="true"
+              >
+                <span class="project-card__index">02 / DIGITAL</span>
+                <div class="interface-art__window">
+                  <div class="interface-art__topbar">
+                    <i></i><i></i><i></i><span>STUDIO / 01</span>
+                  </div>
+                  <div class="interface-art__body">
+                    <div class="interface-art__sidebar">
+                      <i></i><i></i><i></i><i></i>
+                    </div>
+                    <div class="interface-art__canvas">
+                      <span>
+                        GOOD DESIGN<br />
+                        FEELS SIMPLE.
+                      </span>
+                      <div><i></i><i></i><i></i></div>
+                      <b></b>
+                    </div>
+                  </div>
+                </div>
+                <span class="project-card__art-note">THOUGHTFUL BY DESIGN</span>
+              </div>
+              <div class="project-card__details">
+                <div>
+                  <h3>Interface Studies</h3>
+                  <p>Digital experiences &amp; interaction</p>
+                </div>
+                <a href="#project-2" aria-label="Explore Interface Studies">
+                  <img src="assets/project-arrow.svg" alt="" />
+                </a>
+              </div>
+            </article>
+            <article class="project-card project-card--visual" id="project-3">
+              <div
+                class="project-card__art project-card__art--visual"
+                aria-hidden="true"
+              >
+                <span class="project-card__index">03 / VISUAL</span>
+                <div class="visual-art__type">
+                  <span>MAKE</span>
+                  <strong>IDEAS<br />VISIBLE</strong>
+                  <i></i>
+                </div>
+                <span class="project-card__art-note">TYPE / COLOR / FORM</span>
+              </div>
+              <div class="project-card__details">
+                <div>
+                  <h3>Visual Language</h3>
+                  <p>Typography, color &amp; composition</p>
+                </div>
+                <a href="#project-3" aria-label="Explore Visual Language">
+                  <img src="assets/project-arrow.svg" alt="" />
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="contact" role="contentinfo">
+        <div class="footer__landscape" aria-hidden="true">
+          <img class="footer__sky" src="assets/footer-sky.png" alt="" />
+          <img class="footer__hills" src="assets/footer-hills.png" alt="" />
+          <img
+            class="footer__foreground"
+            src="assets/footer_foreground.png"
+            alt=""
+          />
+          <div class="footer__message">
+            <span>Thank You for</span>
+            <strong>Visiting</strong>
+          </div>
+        </div>
+        <section class="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">Contact Me</h2>
+          <p>
+            Leave a short message for,<br />
+            let it be a joke rather......
+          </p>
+          <form class="message-form">
+            <label class="visually-hidden" for="message">Your message</label>
+            <input
+              id="message"
+              name="message"
+              type="text"
+              placeholder="Enter Your Message"
+              required
+            />
+            <button type="submit">Send</button>
+          </form>
+          <p class="form-status" aria-live="polite"></p>
+        </section>
+        <div class="footer-links">
+          <nav aria-label="Footer navigation">
+            <div>
+              <a href="#about">About Me</a>
+              <a href="#contact">Contact Me</a>
+              <a href="#projects">View Projects</a>
+            </div>
+            <div>
+              <a href="#certificates">View Certificates</a>
+              <a href="#background">Technical Background</a>
+              <a href="#documentation">Documentation</a>
+            </div>
+          </nav>
+          <div class="social-links" aria-label="Social media">
+            <a
+              href="https://www.facebook.com/me.is.roshan"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+            >
+              <img src="assets/facebook.svg" alt="" />
+            </a>
+            <a
+              href="https://www.instagram.com/me.is.roshan"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+            >
+              <img src="assets/instagram.svg" alt="" />
+            </a>
+            <a
+              href="https://dribbble.com/roshan_design"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Dribbble"
+            >
+              <img src="assets/dribbble.svg" alt="" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/me-roshangiri"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+            >
+              <img src="assets/linkedin.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
