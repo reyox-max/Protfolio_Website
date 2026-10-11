@@ -9,10 +9,21 @@
     />
     <meta name="theme-color" content="#0a1024" />
     <title>Roshan Giri | Portfolio</title>
+    <link rel="preload" as="image" href="assets/background.png" />
+    <link rel="preload" as="image" href="assets/ForeGround.png" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
-  <body>
+  <body class="intro-pending">
+    <div class="site-intro" aria-hidden="true">
+      <video
+        class="site-intro__video"
+        src="assets/site-intro.mp4"
+        muted
+        playsinline
+        preload="auto"
+      ></video>
+    </div>
     <header class="site-header">
       <nav class="main-nav" aria-label="Main navigation">
         <a class="main-nav__link is-active" href="#home">Home</a>
@@ -32,6 +43,23 @@
             <div class="hero__aircraft-wrap">
               <img class="hero__aircraft" src="assets/hero-aircraft.png" alt="" />
             </div>
+          </div>
+          <div class="hero__clouds" aria-hidden="true">
+            <img
+              class="hero__cloud hero__cloud--top"
+              src="assets/cloud_top_transparent.png"
+              alt=""
+            />
+            <img
+              class="hero__cloud hero__cloud--mountain-one"
+              src="assets/cloud_transparent1.png"
+              alt=""
+            />
+            <img
+              class="hero__cloud hero__cloud--mountain-two"
+              src="assets/cloud_transparent2.png"
+              alt=""
+            />
           </div>
           <img
             class="hero__landscape"
